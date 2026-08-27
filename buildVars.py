@@ -25,13 +25,13 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("Add-on to get information about NVIDIA GPUs"),
 	# version
-	"addon_version": "2.1",
+	"addon_version": "2.1.1",
 	# Author(s)
 	"addon_author": "José Pérez <perezhuancajose@gmail.com> ayoub <ayoubelbak13@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": "https://github.com/JosePerezHuanca/NVIDIAMonitor",
+	"addon_url": "https://github.com/joshknnd1982/nvidia-monitor-nvda",
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": "https://github.com/JosePerezHuanca/NVIDIAMonitor",
+	"addon_sourceURL": "https://github.com/joshknnd1982/nvidia-monitor-nvda",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)

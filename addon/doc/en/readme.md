@@ -35,6 +35,13 @@ All the following shortcuts can be customized in the input gestures/NVDIAMonitor
 
 ## Changelog
 
+### Version 2.1.1
+
+- Added a Russian translation.
+- Fixed an error that could stop a message being announced at all, instead of
+  being spoken, when the add-on reported a problem in a language whose
+  characters the system code page cannot represent.
+
 ### Version 2.0
 
 - Compatibility with NVDA 2026.1.

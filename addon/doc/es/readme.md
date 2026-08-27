@@ -35,6 +35,13 @@ Todos los siguientes atajos se pueden personalizar en los gestos de entrada/cate
 
 ## Registro de cambios
 
+### Versión 2.1.1
+
+- Se añadió la traducción al ruso.
+- Se corrigió un error por el que un mensaje podía no anunciarse en absoluto
+  cuando el complemento informaba de un problema en un idioma cuyos caracteres
+  no admite la página de códigos del sistema.
+
 ### Versión 2.0
 
 - Compatibilidad con NVDA 2026.1.

@@ -1,0 +1,454 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NVIDIA Monitor 2.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2026-08-27 12:00+0000\n"
+"PO-Revision-Date: 2026-08-27 12:00+0000\n"
+"Last-Translator: nvda.ru\n"
+"Language-Team: nvda.ru\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:33
+msgid "NVIDIAMonitor"
+msgstr "NVIDIAMonitor (Монитор видеокарт NVIDIA)"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:34
+msgid "If pressed twice, copies this information to the clipboard."
+msgstr "При двойном нажатии эта информация копируется в буфер обмена."
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:44
+msgid "Announces the GPU name. {desc}"
+msgstr "Объявляет имя графического процессора. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:52
+#: globalPlugins/NVIDIAMonitor/__init__.py:63
+#: globalPlugins/NVIDIAMonitor/__init__.py:74
+#: globalPlugins/NVIDIAMonitor/__init__.py:85
+#: globalPlugins/NVIDIAMonitor/__init__.py:96
+#: globalPlugins/NVIDIAMonitor/__init__.py:107
+#: globalPlugins/NVIDIAMonitor/__init__.py:118
+#: globalPlugins/NVIDIAMonitor/__init__.py:129
+#: globalPlugins/NVIDIAMonitor/__init__.py:140
+#: globalPlugins/NVIDIAMonitor/__init__.py:151
+#: globalPlugins/NVIDIAMonitor/__init__.py:162
+#: globalPlugins/NVIDIAMonitor/__init__.py:173
+#: globalPlugins/NVIDIAMonitor/__init__.py:184
+#: globalPlugins/NVIDIAMonitor/__init__.py:195
+#: globalPlugins/NVIDIAMonitor/__init__.py:206
+#: globalPlugins/NVIDIAMonitor/__init__.py:217
+#: globalPlugins/NVIDIAMonitor/__init__.py:228
+#: globalPlugins/NVIDIAMonitor/__init__.py:239
+#: globalPlugins/NVIDIAMonitor/__init__.py:250
+#: globalPlugins/NVIDIAMonitor/__init__.py:261
+#: globalPlugins/NVIDIAMonitor/__init__.py:272
+#: globalPlugins/NVIDIAMonitor/__init__.py:283
+#: globalPlugins/NVIDIAMonitor/__init__.py:294
+#: globalPlugins/NVIDIAMonitor/__init__.py:305
+msgid "Error: your processor architecture is not compatible"
+msgstr "Ошибка: архитектура вашего процессора не поддерживается."
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:55
+msgid "Announces the GPU UUID. {desc}"
+msgstr "Объявляет UUID графического процессора. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:66
+msgid "Announces the driver version. {desc}"
+msgstr "Объявляет версию драйвера. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:77
+msgid "Announces the BIOS version. {desc}"
+msgstr "Объявляет версию BIOS. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:88
+msgid "Announces the GPU load. {desc}"
+msgstr "Объявляет о загрузке графического процессора. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:99
+msgid "Announces the memory load. {desc}"
+msgstr "Объявляет о загрузке памяти. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:110
+msgid "Announces the free memory. {desc}"
+msgstr "Объявляет о свободной памяти. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:121
+msgid "Announces the used memory. {desc}"
+msgstr "Объявляет используемую память. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:132
+msgid "Announces the total memory. {desc}"
+msgstr "Объявляет общий объём памяти. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:143
+msgid "Announces the temperature. {desc}"
+msgstr "Объявляет температуру. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:154
+msgid "Announces the power consumption. {desc}"
+msgstr "Объявляет о потреблении энергии. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:165
+msgid "Announces the power limit. {desc}"
+msgstr "Объявляет о пределе энергопотребления. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:176
+msgid "Announces the number of CUDA processes. {desc}"
+msgstr "Объявляет количество процессов CUDA. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:187
+msgid "Announces the memory used by processes. {desc}"
+msgstr "Объявляет память, используемую процессами. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:198
+msgid "Announces the fan speed. {desc}"
+msgstr "Объявляет скорость вращения вентилятора. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:209
+msgid "Announces the GPU clock frequency. {desc}"
+msgstr "Объявляет тактовую частоту графического процессора. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:220
+msgid "Announces the maximum GPU clock frequency. {desc}"
+msgstr "Объявляет максимальную тактовую частоту графического процессора. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:231
+msgid "Announces the SM clock frequency. {desc}"
+msgstr "Объявляет тактовую частоту SM. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:242
+msgid "Announces the maximum SM clock frequency. {desc}"
+msgstr "Объявляет максимальную тактовую частоту SM. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:253
+msgid "Announces the memory clock frequency. {desc}"
+msgstr "Объявляет тактовую частоту памяти. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:264
+msgid "Announces the maximum memory clock frequency. {desc}"
+msgstr "Объявляет максимальную тактовую частоту памяти. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:275
+msgid "Announces the TX throughput. {desc}"
+msgstr "Объявляет пропускную способность TX. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:286
+msgid "Announces the RX throughput. {desc}"
+msgstr "Объявляет пропускную способность RX. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/__init__.py:297
+msgid "Announces the power state. {desc}"
+msgstr "Объявляет о состоянии питания. {desc}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:29
+msgid "NVIDIAMonitor: NVDA 64-bit, using pynvml"
+msgstr "NVIDIAMonitor: 64-разрядная версия NVDA, используется pynvml"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:33
+msgid "NVIDIAMonitor: NVDA version older than 2026.1, using external script"
+msgstr "NVIDIAMonitor: версия NVDA старее 2026.1, используется внешний скрипт"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:37
+msgid "Free memory"
+msgstr "Свободная память"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:38
+msgid "Used memory"
+msgstr "Используемая память"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:39
+msgid "Total memory"
+msgstr "Общий объём памяти"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:40
+msgid "Memory used by processes"
+msgstr "Память, используемая процессами"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:44
+msgid "{label}: {bytes} B"
+msgstr "{label}: {bytes} Б"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:46
+msgid "{label}: {bytes:.2f} KB"
+msgstr "{label}: {bytes:.2f} КБ"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:48
+msgid "{label}: {bytes:.2f} MB"
+msgstr "{label}: {bytes:.2f} МБ"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:50
+msgid "{label}: {bytes:.2f} GB"
+msgstr "{label}: {bytes:.2f} ГБ"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:54
+msgid "{direction} Throughput: {bytes:.2f} KB/s"
+msgstr "Пропускная способность {direction}: {bytes:.2f} КБ/с"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:56
+msgid "{direction} Throughput: {bytes:.2f} MB/s"
+msgstr "Пропускная способность {direction}: {bytes:.2f} МБ/с"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:60
+msgid "P0 - Maximum performance"
+msgstr "P0 - Максимальная производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:61
+msgid "P1 - Very high performance"
+msgstr "P1 - Очень высокая производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:62
+msgid "P2 - High performance"
+msgstr "P2 - Высокая производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:63
+msgid "P3 - Moderate-high performance"
+msgstr "P3 - Умеренно высокая производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:64
+msgid "P4 - Moderate performance"
+msgstr "P4 - Умеренная производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:65
+msgid "P5 - Low performance"
+msgstr "P5 - Низкая производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:66
+msgid "P6 - Power saving mode"
+msgstr "P6 - Режим энергосбережения"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:67
+msgid "P7 - Power saving (intermediate)"
+msgstr "P7 - Энергосбережение (промежуточный)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:68
+msgid "P8 - Idle / very low performance"
+msgstr "P8 - Простой / очень низкая производительность"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:69
+msgid "P9 - (Undocumented)"
+msgstr "P9 - (Не документировано)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:70
+msgid "P10 - (Undocumented)"
+msgstr "P10 - (Не документировано)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:71
+msgid "P11 - (Undocumented)"
+msgstr "P11 - (Не документировано)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:72
+msgid "P12 - (Undocumented)"
+msgstr "P12 - (Не документировано)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:73
+msgid "P13 - (Undocumented)"
+msgstr "P13 - (Не документировано)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:74
+msgid "P14 - (Undocumented)"
+msgstr "P14 - (Не документировано)"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:75
+msgid "P15 - Minimum performance / maximum power saving"
+msgstr "P15 - Минимальная производительность / максимальное энергосбережение"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:82
+msgid "Failed to get info: {error}"
+msgstr "Не удалось получить информацию: {error}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:86
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:213
+msgid "Error obtaining GPU information"
+msgstr "Ошибка при получении информации о графическом процессоре"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:88
+msgid "Name: {res}"
+msgstr "Имя: {res}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:90
+msgid "UUID: {res}"
+msgstr "UUID: {res}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:92
+msgid "Driver version: {res}"
+msgstr "Версия драйвера: {res}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:94
+msgid "GPU load: {res}%"
+msgstr "Загрузка графического процессора: {res}%"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:96
+msgid "Memory load: {res}%"
+msgstr "Загрузка памяти: {res}%"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:104
+msgid "Temperature: {res} °C"
+msgstr "Температура: {res} °C"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:106
+msgid "Power consumption: {res} W"
+msgstr "Энергопотребление: {res} Вт"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:108
+msgid "Power limit: {res} W"
+msgstr "Предел энергопотребления: {res} Вт"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:110
+msgid "Fan speed: {res}%"
+msgstr "Скорость вращения вентилятора: {res}%"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:112
+msgid "CUDA processes: {res}"
+msgstr "Процессы CUDA: {res}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:116
+msgid "GPU clock frequency: {res} MHz"
+msgstr "Тактовая частота графического процессора: {res} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:118
+msgid "SM clock frequency: {res} MHz"
+msgstr "Тактовая частота SM: {res} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:120
+msgid "Memory clock frequency: {res} MHz"
+msgstr "Тактовая частота памяти: {res} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:122
+msgid "Maximum GPU clock frequency: {res} MHz"
+msgstr "Максимальная тактовая частота графического процессора: {res} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:124
+msgid "Maximum SM clock frequency: {res} MHz"
+msgstr "Максимальная тактовая частота SM: {res} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:126
+msgid "Maximum memory clock frequency: {res} MHz"
+msgstr "Максимальная тактовая частота памяти: {res} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:132
+msgid "BIOS version: {res}"
+msgstr "Версия BIOS: {res}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:135
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:301
+msgid "Power state: {desc}"
+msgstr "Состояние питания: {desc}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:137
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:303
+msgid "Invalid information type"
+msgstr "Недопустимый тип информации"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:160
+msgid "Error: File not found at the specified path: {path}"
+msgstr "Ошибка: файл не найден по указанному пути: {path}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:167
+msgid "Error starting process: {code} {cmd}"
+msgstr "Ошибка при запуске процесса: {code} {cmd}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:198
+msgid "Error writing to subprocess: {error}"
+msgstr "Ошибка при записи в подпроцесс: {error}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:210
+msgid "Error executing command with pynvml: {error}"
+msgstr "Ошибка при выполнении команды с помощью pynvml: {error}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:222
+msgid "Failed to initialize pynvml: {error}"
+msgstr "Не удалось инициализировать pynvml: {error}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:223
+msgid "Failed to initialize pynvml"
+msgstr "Не удалось инициализировать pynvml"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:228
+msgid "Name: {name}"
+msgstr "Имя: {name}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:230
+msgid "UUID: {uuid}"
+msgstr "UUID: {uuid}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:232
+msgid "Driver version: {ver}"
+msgstr "Версия драйвера: {ver}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:235
+msgid "GPU load: {load}%"
+msgstr "Загрузка графического процессора: {load}%"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:238
+msgid "Memory load: {load}%"
+msgstr "Загрузка памяти: {load}%"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:252
+msgid "Temperature: {temp} °C"
+msgstr "Температура: {temp} °C"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:255
+msgid "Power consumption: {power:.2f} W"
+msgstr "Энергопотребление: {power:.2f} Вт"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:258
+msgid "Power limit: {limit:.2f} W"
+msgstr "Предел энергопотребления: {limit:.2f} Вт"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:261
+msgid "Fan speed: {speed}%"
+msgstr "Скорость вращения вентилятора: {speed}%"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:264
+msgid "CUDA processes: {count}"
+msgstr "Процессы CUDA: {count}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:274
+msgid "GPU clock frequency: {clock} MHz"
+msgstr "Тактовая частота графического процессора: {clock} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:277
+msgid "SM clock frequency: {clock} MHz"
+msgstr "Тактовая частота SM: {clock} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:280
+msgid "Memory clock frequency: {clock} MHz"
+msgstr "Тактовая частота памяти: {clock} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:283
+msgid "Maximum GPU clock frequency: {clock} MHz"
+msgstr "Максимальная тактовая частота графического процессора: {clock} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:286
+msgid "Maximum SM clock frequency: {clock} MHz"
+msgstr "Максимальная тактовая частота SM: {clock} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:289
+msgid "Maximum memory clock frequency: {clock} MHz"
+msgstr "Максимальная тактовая частота памяти: {clock} МГц"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:298
+msgid "BIOS version: {ver}"
+msgstr "Версия BIOS: {ver}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:308
+msgid "Error closing pynvml: {error}"
+msgstr "Ошибка при закрытии pynvml: {error}"
+
+#: globalPlugins/NVIDIAMonitor/gpu_util.py:331
+msgid "Error attempting to terminate process: {error}"
+msgstr "Ошибка при попытке завершить процесс: {error}"
+
+#: buildVars.py
+msgid "NVIDIA Monitor"
+msgstr "NVIDIA Monitor (Монитор видеокарт NVIDIA)"
+
+#: buildVars.py
+msgid "Add-on to get information about NVIDIA GPUs"
+msgstr "Дополнение для получения информации о видеокартах NVIDIA"

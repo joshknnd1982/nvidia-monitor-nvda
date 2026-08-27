@@ -138,7 +138,11 @@ class GPUMonitor:
 
 	def write_log(self,message):
 		log_path=os.path.join(globalVars.appArgs.configPath, "NVIDIAMonitor.log")
-		with open(log_path, "a") as f:
+		# Must be UTF-8: log messages are translated, and on a system whose
+		# code page cannot represent them the write raises UnicodeEncodeError,
+		# which aborts execute_command before it ever calls its callback --
+		# leaving the user with silence instead of an error announcement.
+		with open(log_path, "a", encoding="utf-8") as f:
 			current_time=datetime.datetime.now()
 			time_format=current_time.strftime("%Y-%m-%d %H:%M")
 			f.write(f"{time_format} - {message}\n")
